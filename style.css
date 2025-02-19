@@ -21,6 +21,10 @@ span {
     color: #00b289;
 }
 
+.bx-check {
+    color: #00b289;
+}
+
 /* ========== NAV SECTION ========== */
 
 #mainNav {
@@ -62,18 +66,29 @@ nav {
 
 .dropdown:hover .dropDownContent {
     display: block;
+    margin-top: 20px;
 }
 
 .dropDownContent {
     position: absolute;
     min-width: 100px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 2.5px #4c4d5f;
     display: none;
 }
 
 .dropDownContent a {
     display: block;
-    padding-top: 10px;
-    background-color: #00b289;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: #4c4d5f;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 
