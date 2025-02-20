@@ -482,3 +482,23 @@ footer ul{
     
 }
 
+@media (max-width: 718px) {
+    #loginButtons {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        margin-top: 70px;
+        align-items: end;
+    }
+
+    .logbtns {
+        padding-bottom: 20px;
+    }
+
+
+    footer {
+        gap: 100px;
+       
+    }
+}
+
